@@ -42,7 +42,7 @@ function _interopRequireWildcard(obj) {
         console.warn(`The module '${dependency}' was not found. Next.js requires that you include it in 'dependencies' of your 'package.json'. To add it, run 'npm install ${dependency}'`);
     }
 });
-const defaultCommand = 'dev';
+const defaultCommand = 'prod';
 const commands = {
     build: ()=>Promise.resolve(require('../cli/next-build').nextBuild)
     ,

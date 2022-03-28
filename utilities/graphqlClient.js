@@ -5,7 +5,7 @@ export const graphqlClient = new ApolloClient({
   cache: new InMemoryCache(),
   credentials: 'include',
   link: new HttpLink({
-    uri: 'https://api.cloudapi.viewmynew.com/api/graphql',
+    uri: 'https://api.element-storm-cart.viewmynew.com/api/graphql',
   }),
   ssrMode: typeof window === 'undefined',
 });

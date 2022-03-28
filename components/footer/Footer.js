@@ -32,7 +32,7 @@ function Footer(props) {
     <div className="bg-info" style={background}>
       <Image
         className="object-center object-cover pointer-events-none"
-        src={"https://api.cloudapi.viewmynew.com/media/6205811e49be6_green-with-blur.jpg"}
+        src={"https://api.element-storm-cart.viewmynew.com/media/6205811e49be6_green-with-blur.jpg"}
         alt={"Green With Blur"}
         layout="fill"
         objectFit="cover"
@@ -49,7 +49,7 @@ function Footer(props) {
                 <Col sm={12} md={4}>
                   <div style={{ height: '100%', width: '100%', position: "relative" }}>
                     <ImageContain
-                      src="https://api.cloudapi.viewmynew.com/media/6205a1e7e959b_Shay-logo-dark.png"
+                      src="https://api.element-storm-cart.viewmynew.com/media/6205a1e7e959b_Shay-logo-dark.png"
                       alt="Shay And Company Logo"
                     />
                   </div>
@@ -102,7 +102,7 @@ function Footer(props) {
                   <div style={socialLogo}>
                     <Image
                       alt="Facebook"
-                      src="https://api.cloudapi.viewmynew.com/media/620162be32f73_ig.png"
+                      src="https://api.element-storm-cart.viewmynew.com/media/620162be32f73_ig.png"
                     />
                   </div>
                 </a>
@@ -110,7 +110,7 @@ function Footer(props) {
                   <div style={socialLogo}>
                     <Image
                       alt="Instagram"
-                      src="https://api.cloudapi.viewmynew.com/media/62015fa0b4d7e_facebook-logo-png-38360.png"
+                      src="https://api.element-storm-cart.viewmynew.com/media/62015fa0b4d7e_facebook-logo-png-38360.png"
                     />
                   </div>
                 </a>

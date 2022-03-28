@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 function Title(props) {
     const SpanClasses = props.SpanClass ? props.SpanClass + ' ps-2' : 'ps-2';
-    let ImagePath = "https://api.cloudapi.viewmynew.com/media/61d247f6e64e0_Shay-And-Company-Icon.svg";
+    let ImagePath = "https://api.element-storm-cart.viewmynew.com/media/61d247f6e64e0_Shay-And-Company-Icon.svg";
 
     const CustomTag = `${props.as}`;
     const Width = props.Width ? parseInt(props.Width) : 35;

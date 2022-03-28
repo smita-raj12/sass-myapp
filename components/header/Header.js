@@ -21,7 +21,7 @@ function Header(props) {
 
   const headerBg = {
     backgroundImage:
-      "url('https://api.cloudapi.viewmynew.com/media/620172b976c53_weathered%20-wood.webp')",
+      "url('https://api.element-storm-cart.viewmynew.com/media/620172b976c53_weathered%20-wood.webp')",
     backgroundPosition: "bottom",
     backgroundSize: "100% auto",
   };
@@ -49,7 +49,7 @@ function Header(props) {
             <div style={logoBg}>
             <a href={"/"}>
               <img
-                src="https://api.cloudapi.viewmynew.com/media/61cc83b886fa6_Shay-and-company-logo.svg"
+                src="https://api.element-storm-cart.viewmynew.com/media/61cc83b886fa6_Shay-and-company-logo.svg"
                 alt="Shay And Company Logo"
                 className="HeaderLogo"
               />

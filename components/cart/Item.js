@@ -105,7 +105,7 @@ function Item(props) {
           {width >= 500 ?
                     <div className='d-flex justify-content-center align-items-center p-0 overflow-hidden' style={{ minWidth: "120px", minHeight: '120px' }}>
                         <a href={"/products" + props.cartItem.node.product.uniformResourceLocator} className='text-decoration-none h-100 w-100'>
-                            <Image alt={props.imageURL.node.alt ? props.imageURL.node.alt : 'Product placeholder'} styles={{width: "120px", height: '100%', position: "relative"}} src={props.imageURL.node.contentUrl ? props.imageURL.node.contentUrl: "https://api.cloudapi.viewmynew.com/media/620586a983d39_thumbnail-placeholder.jpg"} />
+                            <Image alt={props.imageURL.node.alt ? props.imageURL.node.alt : 'Product placeholder'} styles={{width: "120px", height: '100%', position: "relative"}} src={props.imageURL.node.contentUrl ? props.imageURL.node.contentUrl: "https://api.element-storm-cart.viewmynew.com/media/620586a983d39_thumbnail-placeholder.jpg"} />
                         </a>
                     </div> : null}
         <div className='p-0 w-100 flex-grow-1'>
@@ -124,7 +124,7 @@ function Item(props) {
                 <div className='d-flex w-100'>
                     <div className='d-flex justify-content-center align-items-center w-100 h-100 p-0 overflow-hidden'>
                     <a href={"/products" + props.cartItem.node.product.uniformResourceLocator} className='text-decoration-none h-100 w-100'>
-                            <Image alt={props.imageURL.node.alt ? props.imageURL.node.alt : 'Product placeholder'} styles={{width: "100%", height: '120px', position: "relative"}} src={props.imageURL.node.contentUrl ? props.imageURL.node.contentUrl: "https://api.cloudapi.viewmynew.com/media/620586a983d39_thumbnail-placeholder.jpg"} />
+                            <Image alt={props.imageURL.node.alt ? props.imageURL.node.alt : 'Product placeholder'} styles={{width: "100%", height: '120px', position: "relative"}} src={props.imageURL.node.contentUrl ? props.imageURL.node.contentUrl: "https://api.element-storm-cart.viewmynew.com/media/620586a983d39_thumbnail-placeholder.jpg"} />
                         </a>
                     </div>
                 </div> : null}

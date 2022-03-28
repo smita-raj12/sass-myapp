@@ -6,7 +6,7 @@ module.exports = withBundleAnalyzer({
   reactStrictMode: true,
   generateEtags: false,
   images: {
-    domains: ['cloudapi.viewmynew.com', 'api.cloudapi.viewmynew.com'],
+    domains: ['element-storm-cart.viewmynew.com', 'api.element-storm-cart.viewmynew.com'],
   },
   env: {
       REACT_APP_AUTH_NET_USER: process.env.REACT_APP_AUTH_NET_USER,

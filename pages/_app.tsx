@@ -20,10 +20,10 @@ function MyApp({ Component, pageProps }: AppProps) {
             <meta property="og:type" content="website" />
 
             <meta charSet="utf-8" />
-            <link rel="icon" href="https://api.cloudapi.viewmynew.com/media/61d247f6e64e0_Shay-And-Company-Icon.svg" />
+            <link rel="icon" href="https://api.element-storm-cart.viewmynew.com/media/61d247f6e64e0_Shay-And-Company-Icon.svg" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="theme-color" content="#000000" />
-            <link rel="apple-touch-icon" href="https://api.cloudapi.viewmynew.com/media/61d247f6e64e0_Shay-And-Company-Icon.svg" />
+            <link rel="apple-touch-icon" href="https://api.element-storm-cart.viewmynew.com/media/61d247f6e64e0_Shay-And-Company-Icon.svg" />
             <meta name="robots" content="INDEX,FOLLOW" />
 
           </Head>
