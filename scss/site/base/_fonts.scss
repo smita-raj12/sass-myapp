@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'marta-italic';
+    font-style: italic;
+    src: url('/fonts/Marta_Italic.otf') format('opentype');
+  }
+
+.marta {
+    font-family: 'marta-italic' !important;
+}
+
+.Montserrat, .p, p, .blockquote, blockquote {
+    font-family: 'Montserrat', sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.Noto {
+    font-family: 'Noto Serif', serif !important;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .title {
+    font-family: 'marta-italic' !important;
+}
