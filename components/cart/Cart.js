@@ -147,7 +147,7 @@ function Cart(props) {
       {data.retrieveCart.cartItems.totalCount === 0 ?
         <Row>
           <Col xs={12} className='text-center'>
-            <h2>Your Cart Is Empty</h2>
+            <h2>Your Cart Is Empty111</h2>
           </Col>
         </Row> :
         <Row>

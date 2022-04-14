@@ -9,11 +9,11 @@ function Menu(props) {
     let listItems = [];
     if (props.menu) {
         listItems = props.menu.data.menu.data.links.map((Item, key) => {
-            return <Col key={key} sm="12" md="3" className="text-center border-bottom border-primary"><a className="text-decoration-none text-dark" href={Item.url}>{Item.title}</a></Col>
+            return <Col key={key} sm="12" md="3" className="text-left border-bottom border-primary"><a className="text-decoration-none text-white" href={Item.url}>{Item.title}</a></Col>
         });
 
         return (
-            <Row className="d-flex justify-content-center align-items-center w-100">
+            <Row className="d-flex justify-content-left align-items-left w-100">
                 {listItems}
             </Row>
         );

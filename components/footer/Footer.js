@@ -12,7 +12,7 @@ function Footer(props) {
   const Year = new Date().getFullYear();
 
   const background = {
-    position: 'relative'
+    position: 'relative',
   };
   const bgOverlay = {
     // backgroundColor: "rgba(151, 166, 141, .3)",
@@ -24,12 +24,25 @@ function Footer(props) {
     height: 60,
     width: 60,
     display: "inline-block",
-    padding: 4,
-    position: "relative"
+    position: "relative",
   };
-
+  const imgBlur = {
+    filter: "blur(8px)"
+  }
+  const logoStyle = {
+    height: '100%', 
+    width: '100%', 
+    position: "relative" ,
+    boxShadow: "4px 4px 4px grey",
+    borderRadius: 50,
+    backgroundColor: "#FFFFFF65" ,
+    hover: {
+      backgroundColor: "#0D47A1 !important"
+    },
+  }
   return (
-    <div className="bg-info" style={background}>
+    <div className="bg-primary" style={background}>
+    <div style={imgBlur}>
       <Image
         className="object-center object-cover pointer-events-none"
         src={"https://api.element-storm-cart.viewmynew.com/media/6205811e49be6_green-with-blur.jpg"}
@@ -38,6 +51,7 @@ function Footer(props) {
         objectFit="cover"
         quality={100}
       />
+    </div>
       <div style={bgOverlay}>
         <div className="h-100 w-100 px-5 pb-2 pt-4">
           <Row id="footer">
@@ -47,7 +61,7 @@ function Footer(props) {
                   <Menu menu={props.menu} />
                 </Col>
                 <Col sm={12} md={4}>
-                  <div style={{ height: '100%', width: '100%', position: "relative" }}>
+                  <div style={logoStyle}>
                     <ImageContain
                       src="https://api.element-storm-cart.viewmynew.com/media/6205a1e7e959b_Shay-logo-dark.png"
                       alt="Shay And Company Logo"
@@ -64,14 +78,17 @@ function Footer(props) {
               </Row>
             </Col>
             <Col sm={12} md={3} className="d-flex flex-column align-items-end">
-              <p className="fs-6 text-capitalize text-end m-0 w-100 text-dark">
+            <div className="bg-dark">
+
+              <p className=" d-flex flex-wrap align-items-center fs- 6 pt-3 text-start m-0 w-100 text-white">
                 Sign up to receive exclusive offers
               </p>
-              <div className="d-flex">
+              <div className="d-flex pt-3 pb-0">
                 <Subscribe buttonColor="warning" />
               </div>
               <br />
               <br />
+            </div>
               <a
                 className="text-decoration-none text-dark text-capitalize"
                 rel="noreferrer"
@@ -118,13 +135,13 @@ function Footer(props) {
             </Col>
           </Row>
           <div className="d-flex justify-content-between">
-            <div>
-              <p className="mx-2">
+            <div className="pt-3">
+              <p className="bg-light">
                 ©{Year} Shay And Company, .Inc - All Rights Reserved
               </p>
             </div>
             <div>
-              <div className="mx-2">
+              <div className="mx-2 bg-light">
                 <a
                   href="https://www.neturf.com"
                   rel="noreferrer"

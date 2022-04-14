@@ -24,7 +24,7 @@ const Home: NextPage<any, any> = (props) => {
     <div>
       <Head>
         {props.page.title ? <title>{props.page.title}</title> : null}
-        {props.page.description ? <meta name="description" content={props.page.description} /> : null}
+        {/* {props.page.description ? <meta name="description" content={props.page.description} /> : null} */}
 
         {props.page.ogType ? <meta property="og:type" content={props.page.ogType} /> : null}
         {props.page.ogTitle ? <meta property="og:title" content={props.page.ogTitle} /> : null}

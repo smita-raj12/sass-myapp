@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <ApolloProvider client={client}>
           <Head>
 
-            <title>Wholesale &amp; Bulk Organic Natural Oils | Shay and Company</title>
+            <title>Wholesale222 &amp; Bulk Organic Natural Oils22 | Shay and Company</title>
             <meta name="description" content="Shop premier wholesale raw oils &amp; plant products with Shay and Company. We offer bulk natural products like essential oils, salts, butters, waxes, &amp; more." />
             <meta property="og:type" content="website" />
 

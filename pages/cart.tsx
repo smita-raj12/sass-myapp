@@ -23,7 +23,7 @@ const Products: NextPage<any, any> = (props) => {
     return (
         <>
             <Head>
-                <title>Cart</title>
+                <title>My Cart</title>
                 <meta name="description" content="Cart" />
 
                 <meta property="og:type" content="website" />

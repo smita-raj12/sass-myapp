@@ -21,19 +21,26 @@ function Header(props) {
 
   const headerBg = {
     backgroundImage:
-      "url('https://api.element-storm-cart.viewmynew.com/media/620172b976c53_weathered%20-wood.webp')",
+      "url('https://api.element-storm-cart.viewmynew.com/media/625731ecf00f1_header.jpg')",
     backgroundPosition: "bottom",
     backgroundSize: "100% auto",
   };
   const bgOverlay = {
     backgroundColor: "#FFFFFFA4",
   };
+
   const logoBg = {
+    display: "flex",
     height: "100%",
     borderRadius: 50,
-    boxShadow: "0 0 30px #FFFFFFF6",
-    backgroundColor: "#FFFFFF65",
+    boxShadow: "4px 4px 4px grey",
+    backgroundColor: "#FFFFFF65" ,
+    hover: {
+      backgroundColor: "#0D47A1 !important"
+    },
   };
+  
+
   function handleSubmit(e) {
     e.preventDefault();
     if (fSearch) {
@@ -42,6 +49,7 @@ function Header(props) {
   }
 
   return (
+    
     <header>
       <div className="headerLogoContainer" style={headerBg}>
         <div className="py-2" style={bgOverlay}>
@@ -49,12 +57,12 @@ function Header(props) {
             <div style={logoBg}>
             <a href={"/"}>
               <img
-                src="https://api.element-storm-cart.viewmynew.com/media/61cc83b886fa6_Shay-and-company-logo.svg"
+                src="https://api.element-storm-cart.viewmynew.com/media/6205a1e7e959b_Shay-logo-dark.png"
                 alt="Shay And Company Logo"
                 className="HeaderLogo"
               />
               </a>
-              </div>
+            </div>
             <p
               className="headerText test-uppercase fw-bold text-center"
               style={{ width: 350 }}
@@ -65,7 +73,7 @@ function Header(props) {
         </div>
       </div>
 
-      <Navbar bg="info" variant="shay" expand="md" className="py-0">
+      <Navbar bg="info"  expand="md" className="py-0">
         <Container>
           <Navbar.Toggle aria-controls="shay-navbar-nav" />
           <Navbar.Collapse className="shay-navbar-nav" id="main_nav">

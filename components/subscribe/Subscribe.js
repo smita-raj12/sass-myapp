@@ -7,10 +7,10 @@ import Button from 'react-bootstrap/Button';
 function Subscribe(props) {
 
     return (
-        <Form className="w-50 m-0  flex-fill">
+        <Form >
             <InputGroup>
                 <FormControl
-                    placeholder="Email"
+                    placeholder="ABC@abc.com"
                     aria-label="Subscribe For Exclusive Offers"
                     aria-describedby="Subscribe For Exclusive Offers"
                     size="sm"
