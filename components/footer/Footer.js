@@ -80,7 +80,7 @@ function Footer(props) {
             <Col sm={12} md={3} className="d-flex flex-column align-items-end">
             <div className="bg-dark">
 
-              <p className=" d-flex flex-wrap align-items-center fs- 6 pt-3 text-start m-0 w-100 text-white">
+              <p className=" d-flex flex-wrap align-items-center fs-6 pt-3 text-start m-0 w-100 text-white">
                 Sign up to receive exclusive offers
               </p>
               <div className="d-flex pt-3 pb-0">
