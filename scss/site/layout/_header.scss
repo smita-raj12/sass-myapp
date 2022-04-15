@@ -1,14 +1,18 @@
-// .headerLogoContainer {
-//     .HeaderLogo {
-//         max-width: 250px;
-//         width: 20vw;
-//         background-color:antiquewhite
-//     }
-//     .HeaderLogo:hover{
-//         background-color:#002ead;
-//         transition: 0.7s;
-//     }
-//     .headerText {
-//         font-size: calc(0.4rem + 0.5vw);
-//     }
-// }
+.headerLogoContainer {
+    .HeaderLogo {
+        max-width: 250px;
+        width: 20vw;
+        border-radius: 50px;
+        box-shadow: 4px 4px 4px grey;
+        background-color:#FFFFFF65;
+    }
+    .HeaderLogo:hover{
+        background-color:#8aa8fa;
+        border-radius: 50;
+        box-shadow: "4px 4px 4px grey";
+        transition: 0.7s;
+    }
+    .headerText {
+        font-size: calc(0.4rem + 0.5vw);
+    }
+}

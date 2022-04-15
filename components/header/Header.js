@@ -29,18 +29,6 @@ function Header(props) {
     backgroundColor: "#FFFFFFA4",
   };
 
-  const logoBg = {
-    display: "flex",
-    height: "100%",
-    borderRadius: 50,
-    boxShadow: "4px 4px 4px grey",
-    backgroundColor: "#FFFFFF65" ,
-    hover: {
-      backgroundColor: "#0D47A1 !important"
-    },
-  };
-  
-
   function handleSubmit(e) {
     e.preventDefault();
     if (fSearch) {
@@ -54,7 +42,6 @@ function Header(props) {
       <div className="headerLogoContainer" style={headerBg}>
         <div className="py-2" style={bgOverlay}>
           <Container className="d-flex justify-content-between align-items-center">
-            <div style={logoBg}>
             <a href={"/"}>
               <img
                 src="https://api.element-storm-cart.viewmynew.com/media/6205a1e7e959b_Shay-logo-dark.png"
@@ -62,7 +49,6 @@ function Header(props) {
                 className="HeaderLogo"
               />
               </a>
-            </div>
             <p
               className="headerText test-uppercase fw-bold text-center"
               style={{ width: 350 }}
