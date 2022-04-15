@@ -15,7 +15,7 @@ function Footer(props) {
     position: 'relative',
   };
   const bgOverlay = {
-    // backgroundColor: "rgba(151, 166, 141, .3)",
+    backgroundColor: "rgba(151, 166, 141, .3)",
     position: 'relative',
     zIndex: 1
   };
@@ -26,23 +26,11 @@ function Footer(props) {
     display: "inline-block",
     position: "relative",
   };
-  const imgBlur = {
-    filter: "blur(8px)"
-  }
-  const logoStyle = {
-    height: '100%', 
-    width: '100%', 
-    position: "relative" ,
-    boxShadow: "4px 4px 4px grey",
-    borderRadius: 50,
-    backgroundColor: "#FFFFFF65" ,
-    hover: {
-      backgroundColor: "#0D47A1 !important"
-    },
-  }
+  
+ 
   return (
     <div className="bg-primary" style={background}>
-    <div style={imgBlur}>
+    
       <Image
         className="object-center object-cover pointer-events-none"
         src={"https://api.element-storm-cart.viewmynew.com/media/6205811e49be6_green-with-blur.jpg"}
@@ -51,7 +39,7 @@ function Footer(props) {
         objectFit="cover"
         quality={100}
       />
-    </div>
+   
       <div style={bgOverlay}>
         <div className="h-100 w-100 px-5 pb-2 pt-4">
           <Row id="footer">
@@ -61,12 +49,11 @@ function Footer(props) {
                   <Menu menu={props.menu} />
                 </Col>
                 <Col sm={12} md={4}>
-                  <div style={logoStyle}>
                     <ImageContain
                       src="https://api.element-storm-cart.viewmynew.com/media/6205a1e7e959b_Shay-logo-dark.png"
                       alt="Shay And Company Logo"
                     />
-                  </div>
+                 
                 </Col>
                 <Col
                   sm={12}

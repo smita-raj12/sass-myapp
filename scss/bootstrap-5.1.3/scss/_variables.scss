@@ -67,11 +67,11 @@ $colors: (
 // scss-docs-end colors-map
 
 // scss-docs-start theme-color-variables
-$primary:       #70e81a !default;
+$primary:       #4C5943 !default;
 $secondary:     #878787 !default;
 $success:       #a48da6 !default;
-$info:          #67f607 !default;
-$warning:       #ed7af1 !default;
+$info:          #97A68D !default;
+$warning:       #583A59 !default;
 $danger:        $red !default;
 $light:         #F2F2F2 !default;
 $dark:          #232323 !default;
@@ -528,7 +528,7 @@ $border-color:                $gray-300 !default;
 // scss-docs-end border-variables
 
 // scss-docs-start border-radius-variables
-$border-radius:               .25rem !default;
+$border-radius:               .90rem !default;
 $border-radius-sm:            .2rem !default;
 $border-radius-lg:            .3rem !default;
 $border-radius-pill:          50rem !default;

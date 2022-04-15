@@ -1,0 +1,18 @@
+.footerLogoContainer {
+    .FooterLogo {
+        max-width: 250px;
+        width: 20vw;
+        border-radius: $border-radius;
+        box-shadow: 4px 4px 4px grey;
+        background-color:#FFFFFF65;
+    }
+    .FooterLogo:hover{
+        background-color:#8aa8fa;
+        border-radius: $border-radius;
+        box-shadow: "4px 4px 4px grey";
+        transition: 0.7s;
+    }
+    .footerText {
+        font-size: calc(0.4rem + 0.5vw);
+    }
+}

@@ -2,13 +2,13 @@
     .HeaderLogo {
         max-width: 250px;
         width: 20vw;
-        border-radius: 50px;
+        border-radius: $border-radius;
         box-shadow: 4px 4px 4px grey;
         background-color:#FFFFFF65;
     }
     .HeaderLogo:hover{
         background-color:#8aa8fa;
-        border-radius: 50;
+        border-radius: $border-radius;
         box-shadow: "4px 4px 4px grey";
         transition: 0.7s;
     }
